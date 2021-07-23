@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "minichat"
-version = "1.0.1"
+version = "1.0.2"
 description = "Mini chatbot client based on AIML"
 authors = ["DevAndromeda <devandromeda@snowflakedev.org>"]
 license = "MIT"

@@ -22,8 +22,7 @@ class Minichat:
             response = response.replace("CHAT_BOT_GENDER", self.gender)
             response = response.replace("CHAT_BOT_AGE", str(self.get_age()))
             response = response.replace("CHAT_BOT_MASTER", self.botmaster)
-
-        return response
+            return response
 
     def get_age(self) -> int:
         """Returns the age of the chatbot"""
