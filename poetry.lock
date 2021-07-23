@@ -1,0 +1,17 @@
+[[package]]
+name = "python-aiml"
+version = "0.9.3"
+description = "An interpreter package for AIML, the Artificial Intelligence Markup Language"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "3e4502f08d29d96e984b68d61afbcd27392cdfdfc4b6fb944f40d750bbed2c4c"
+
+[metadata.files]
+python-aiml = [
+    {file = "python-aiml-0.9.3.zip", hash = "sha256:f6954da1888b529121fe66a8cb1352b383c8ecd31e2bd9442ea46a38824e08c8"},
+]

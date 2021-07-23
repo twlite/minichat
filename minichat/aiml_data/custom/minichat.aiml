@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+    <category>
+        <pattern>MINICHAT</pattern>
+        <template>Hello, it's me. I was created by the developers at SnowflakeDev Community (https://snowflakedev.org)</template>
+    </category>
+</aiml>
