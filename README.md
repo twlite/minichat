@@ -1,6 +1,12 @@
 # Minichat
 Mini chatbot client based on AIML
 
+# Installation
+
+```sh
+pip3 install minichat
+```
+
 # Example
 
 ```py
