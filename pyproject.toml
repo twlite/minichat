@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "minichat"
-version = "1.0.2"
+version = "1.0.3"
 description = "Mini chatbot client based on AIML"
 authors = ["DevAndromeda <devandromeda@snowflakedev.org>"]
 license = "MIT"
@@ -15,7 +15,7 @@ classifiers = [
 packages = [{ include = "minichat" }]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.6"
 python-aiml = "0.9.3"
 
 [tool.poetry.dev-dependencies]
