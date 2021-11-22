@@ -3,21 +3,22 @@ import os
 import pkg_resources
 import random
 
+STARTUP_FILE = "startup.xml"
+RANDOM_RESPONSE = (
+    "Sorry, I can't understand",
+    "Can you say that again?",
+    "What do you mean?",
+    "Hmm",
+    "I don't know D:",
+    "D:",
+    "What?",
+    "*thinks*"
+)
+
 class Chatbot:
-    STARTUP_FILE = "startup.xml"
+    __slots__ = ('aiml_kernel',)
 
     def __init__(self) -> None:
-        self.random_response = [
-            "Sorry, I can't understand",
-            "Can you say that again?",
-            "What do you mean?",
-            "Hmm",
-            "I don't know D:",
-            "D:",
-            "What?",
-            "*thinks*"
-        ]
-
         self.aiml_kernel = aiml.Kernel()
         self.setup_aiml()
 
@@ -38,12 +39,7 @@ class Chatbot:
         os.chdir(initial_dir)
 
     def get_response(self, message) -> str:
-        if not message: return random.choice(self.random_response)
-
         try:
-            response = self.aiml_kernel.respond(message)
-            if not response or len(response) < 1: return random.choice(self.random_response)
-            return response
-            
-        except Exception as e:
-            return random.choice(self.random_response)
+            return self.aiml_kernel.respond(message) or random.choice(RANDOM_RESPONSE)
+        except:
+            return random.choice(RANDOM_RESPONSE)
