@@ -15,7 +15,29 @@ class Chatbot:
             "I don't know D:",
             "D:",
             "What?",
-            "*thinks*"
+            "*thinks*",
+            "Interesting, Indeed!",
+            "Dude, are you serious?",
+            "Sounds good :D",
+            "Are you okay ? (mentally)",
+            "If its now worth it, Don't do it",
+            "-_- bruh, are you stupid",
+            "no that is not good. YOU BETTER DON'T",
+            "baka, are you serious ?",
+            "wow that is pretty cool",
+            "Maybe you should follow your brain",
+            "i think ask your father, kiddo",
+            "You can't do this leave it",
+            "Kiddo go and complete your maths homeowork first"
+            "No your PP is too small for this",
+            "ig, You don't have a life",
+            "I will research about that",
+            "tell me a joke instead xD",
+            "Wait, I am trying to make sense",
+            "Dude you are disgusting",
+            "Do you have sense? oh yea you don't xD",
+            "Huh!",
+            "That's nice of you :)",
         ]
 
         self.aiml_kernel = aiml.Kernel()
