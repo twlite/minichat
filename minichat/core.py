@@ -16,7 +16,7 @@ class Chatbot:
             "D:",
             "What?",
             "*thinks*",
-            "Interesting, Indeed!",
+            "Interesting indeed!",
             "Dude, are you serious?",
             "Sounds good :D",
             "Are you okay ? (mentally)",
@@ -28,14 +28,14 @@ class Chatbot:
             "Maybe you should follow your brain",
             "i think ask your father, kiddo",
             "You can't do this leave it",
-            "Kiddo go and complete your maths homeowork first"
+            "Kiddo go complete your maths homeowork first"
             "No your PP is too small for this",
-            "ig, You don't have a life",
+            "ig You don't have a life",
             "I will research about that",
             "tell me a joke instead xD",
             "Wait, I am trying to make sense",
             "Dude you are disgusting",
-            "Do you have sense? oh yea you don't xD",
+            "you don't make any sense",
             "Huh!",
             "That's nice of you :)",
         ]
